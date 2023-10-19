@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/java/cucumber/resources/features",
-        glue = "src/java/cucumber/stepDef",
+        glue = "cucumber/stepDef",
         plugin = {"html:target/HTML_report.html"}
 )
 public class runLogin {

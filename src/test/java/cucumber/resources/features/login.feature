@@ -7,7 +7,7 @@ Feature: Login
     Then user in on dashboard page
 
   Scenario: Failed Login
-    Given open login page
+    Given user open login page
     When  input unregistered username
     And input unregistered password
     And click btn login
